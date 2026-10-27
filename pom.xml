@@ -36,10 +36,9 @@
     <!-- ======================================================== -->
 
     <!-- Web: incluye Tomcat embebido, Jackson, HibernateValidator, SLF4J + Logback -->
-   <dependency>
-        <groupId>org.postgresql</groupId>
-        <artifactId>postgresql</artifactId>
-        <scope>runtime</scope>
+       <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
     <!-- JDBC: incluye HikariCP DataSource y spring-jdbc -->
