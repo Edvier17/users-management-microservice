@@ -25,7 +25,7 @@ class DatabaseConfigTest {
     // Assert
     assertThat(jdbcUrl)
         .isEqualTo(
-                        "jdbc:postgresql://mysql.example.com:15425/crud_usuarios"
-                + "?sslmode=REQUIRED");
-}
+            "jdbc:mysql://mysql.example.com:15425/crud_usuarios"
+                + "?sslMode=REQUIRED&serverTimezone=UTC&allowPublicKeyRetrieval=true");
+  }
 }
